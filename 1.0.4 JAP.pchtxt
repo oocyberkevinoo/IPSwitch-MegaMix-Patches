@@ -39,4 +39,10 @@
 @disabled
 00626D30 1F2003D5
 
+// remove pv_weight limit file call
+@enabled
+005c77c8 1f2003d5
+005c7854 1f2003d5
+
+
 @stop
