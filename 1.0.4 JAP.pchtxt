@@ -1,12 +1,12 @@
 @nsobid-E20FE72B6DFDB1966CE5C3627218834A7CE326C1
 
 # Hatsune Miku: Project DIVA MEGA39's v1.0.4 JAP
-# Original mods: Nas - Stewie1.0 - CyberKevin - SwigS-27
-# IPSwitch patch: CyberKevin - SwigS-27
+# Original patches: DeathChaos - CyberKevin - Nas - Stewie1.0 - SwigS-27
+# IPSwitch patches: DeathChaos - CyberKevin - SwigS-27
 
 
-// HachiHachi Flower & Saturation unlocker
-@enabled
+// Enable HachiHachi Flower Fight (618) & Saturation (207)
+@disabled
 0053404D 950F
 005340C9 990F
 00534E99 960F
@@ -19,7 +19,7 @@
 001EE1C4 20008052
 00970735 "lang2/en"
 
-// No NPR (need Shaders fix)
+// No NPR (Requires Shader Fix)
 @disabled
 009A5EE9 "force_adp"
 
@@ -27,11 +27,15 @@
 @disabled
 00983BE1 "av_mark"
 
+// Force Disable Lyrics (Requires Custom AET)
+@disabled
+00993E18 "d_song_lyric_lt"
+
 // No Copyright Watermark
 @disabled
 009713F0 "dopyright.png"
 
-// Enable Recording (need NCA editing)
+// Enable Recording (Requires Custom NCA)
 @disabled
 00626D30 1F2003D5
 

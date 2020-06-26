@@ -1,20 +1,20 @@
 @nsobid-2FF03FC088CBA7A7710F18D8A34CAAD98ECEFA31
 
 # Hatsune Miku: Project DIVA Mega Mix v1.0.1 ENG
-# Original mods: Nas - Stewie1.0 - CyberKevin - SwigS-27 - DeathChaos
-# IPSwitch patch: CyberKevin - SwigS-27 - DeathChaos
+# Original patches: DeathChaos - CyberKevin - Nas - Stewie1.0 - SwigS-27
+# IPSwitch patches: DeathChaos - CyberKevin - SwigS-27
 
 @flag offset_shift 0x100
 
-// HachiHachi Flower & Saturation unlocker
-@enabled
+// Enable HachiHachi Flower Fight (618) & Saturation (207)
+@disabled
 00533F8D 950F
 00534009 990F
 00534DD9 960F
 00534E3D 9A0F
 
 
-// No NPR (need Shaders fix)
+// No NPR (Requires Shader Fix)
 @disabled
 009A5EE9 "force_adp"
 
@@ -22,16 +22,20 @@
 @disabled
 00983BE1 "av_mark"
 
+// Force Disable Lyrics (Requires Custom AET)
+@disabled
+00993E18 "d_song_lyric_lt"
+
 // No Copyright Watermark
 @disabled
 009713F0 "dopyright.png"
 
-// Enable Recording (need NCA editing)
+// Enable Recording (Requires Custom NCA)
 @disabled
 00626D70 1F2003D5
 
 // remove pv_weight limit file call
-@enabled
+@disabled
 005c7808 1f2003d5
 005c7894 1f2003d5
 
