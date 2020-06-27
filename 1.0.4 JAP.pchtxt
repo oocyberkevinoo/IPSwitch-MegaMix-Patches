@@ -4,6 +4,25 @@
 # Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27
 # IPSwitch patches: CyberKevin - DeathChaos - SwigS-27
 
+@flag offset_shift 0x100
+
+// Disable args.txt
+@disabled
+0099FEEA "rom:/xxxx.txt"
+
+// Disable pv_db_switch.txt
+@disabled
+0098645E "av_db_switch"
+
+// Disable Lyrics (JP/TW/CN)
+@disabled
+0098D25B "xyric.%03zu"
+
+// Disable Lyrics (EN/KR)
+@disabled
+009A2350 "xyric_en.%03zu"
+
+@flag offset_shift 0 
 
 // Enable HachiHachi Flower Fight (618) & Saturation (207)
 @disabled
@@ -14,10 +33,60 @@
 
 @flag offset_shift 0x100
 
-// Force English
+// Enable Recording (Requires Custom NCA)
+@disabled
+00626D30 1F2003D5
+
+// Force English (Requires extra files)
 @disabled
 001EE1C4 20008052
 00970735 "lang2/en"
+
+// Force Korean (Requires extra files)
+@disabled
+001EE1C4 20008052
+00970735 "lang2/kr"
+00978EB4 "rom_switch_kr"
+
+// Force Chinese
+@disabled
+001EE1C4 20008052
+00970735 "lang2/cn"
+00978EB4 "rom_switch_cn"
+009A3E67 ""
+009A3EA4 ""
+009A2350 "lyric.%03zu"
+0097279B ""
+00977851 ""
+00997DE0 ""
+
+// Force Taiwanese
+@disabled
+001EE1C4 20008052
+00970735 "lang2/tw"
+00978EB4 "rom_switch_tw"
+009A3E67 ""
+009A3EA4 ""
+009A2350 "lyric.%03zu"
+0097279B ""
+00977851 ""
+00997DE0 ""
+
+// Force -ui_ps4 (Requires custom args.txt)
+@disabled
+009A1A32 "-modps4"
+
+// Force -hdtv720 (Requires custom args.txt)
+@disabled
+0097C63B "-mod720"
+
+// Force -hdtv1080 (Requires custom args.txt)
+@disabled
+009A6C82 "-mod1080p"
+
+// Force -no_npr (Requires custom args.txt)
+@disabled
+009A1A2A "-modnpr"
 
 // No NPR (Requires Shader Fix)
 @disabled
@@ -27,33 +96,24 @@
 @disabled
 00983BE1 "av_mark"
 
-// Force Disable Lyrics (Requires Custom AET)
-@disabled
-00993E18 "d_song_lyric_lt"
-
 // No Copyright Watermark
 @disabled
 009713F0 "dopyright.png"
 
-// Enable Recording (Requires Custom NCA)
+// Mod Folder (mod_switch_01)
 @disabled
-00626D30 1F2003D5
+001EE1C4 20008052
+00978EB4 "mod_switch_01"
+009A3E67 ""
+009A3EA4 ""
+009A2350 "lyric.%03zu"
+0097279B ""
+00977851 ""
+00997DE0 ""
 
 // Remove pv_weight limit file call
 @disabled
 005c77c8 1f2003d5
 005c7854 1f2003d5
-
-// Force -ui_ps4 (args.txt)
-@disabled
-001d1b28 0000e0d2
-
-// Force -hdtv1080 (args.txt)
-@disabled
-001d1a10 0000e0d2
-
-// Force -no_npr (args.txt)
-@disabled
-001d1aec 0000e0d2
 
 @stop
