@@ -5,7 +5,7 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 # List of patches avaliable:
 * Enable HachiHachi Flower Fight (618) & Saturation (207)
 * Force English (MEGA39's ONLY)
-* No NPR ([Requires Shader Fix](https://cdn.discordapp.com/attachments/531648057452789771/705182222411628584/M39S1.0.4-no_npr_fix_v4.7z))
+* No NPR ([Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
 * No PV Watermark 
 * Force Disable Lyrics ([Requires Custom AET](https://drive.google.com/drive/folders/1Sv5Rqrm9Iuf1e_m0282wpxLe9VqE3J5-?usp=sharing))
 * No Copyright Watermark
