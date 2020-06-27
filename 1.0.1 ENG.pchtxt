@@ -13,6 +13,13 @@
 00534DD9 960F
 00534E3D 9A0F
 
+// Enable Recording (Requires Custom NCA)
+@disabled
+00626D70 1F2003D5
+
+// Force Disable Lyrics (Requires Custom AET)
+@disabled
+00993E18 "d_song_lyric_lt"
 
 // No NPR (Requires Shader Fix)
 @disabled
@@ -22,33 +29,25 @@
 @disabled
 00983BE1 "av_mark"
 
-// Force Disable Lyrics (Requires Custom AET)
-@disabled
-00993E18 "d_song_lyric_lt"
-
 // No Copyright Watermark
 @disabled
 009713F0 "dopyright.png"
-
-// Enable Recording (Requires Custom NCA)
-@disabled
-00626D70 1F2003D5
 
 // Remove pv_weight limit file call
 @disabled
 005c7808 1f2003d5
 005c7894 1f2003d5
 
-// Force -ui_ps4 (args.txt)
+// Force -ui_ps4 (Requires custom args.txt)
 @disabled
-001d1b68 0000e0d2
+009A1A32 "-modps4"
 
-// Force -hdtv1080 (args.txt)
+// Force -hdtv1080 (Requires custom args.txt)
 @disabled
-001d1a50 0000e0d2
+009A6C82 "-mod1080p"
 
-// Force -no_npr (args.txt)
+// Force -no_npr (Requires custom args.txt and Shader Fix)
 @disabled
-001d1b2c 0000e0d2
+009A1A2A "-modnpr"
 
 @stop
