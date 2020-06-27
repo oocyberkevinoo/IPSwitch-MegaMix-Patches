@@ -1,6 +1,6 @@
 # IPSwitch-MegaMix-Patches
 
-IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix (EN) and MEGA39's (JP/CN/TW)
+IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix (EN) and MEGA39's (JP/CN/TW)   
 The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 
 # List of patches avaliable:
