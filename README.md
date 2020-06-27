@@ -22,6 +22,8 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * Mod Folder (mod_switch_01) (MEGA39's ONLY)
 * Remove pv_weight limit file call
 
+Force Chinese, Taiwanese and Korean don't work properly and some text wont render!
+
 # Credits:
 * [CyberKevin](https://github.com/oocyberkevinoo) (IPSwitch Patches, Original Patches)
 * [DeathChaos](https://github.com/DeathChaos25) (IPSwitch Patches, Original Patches)
