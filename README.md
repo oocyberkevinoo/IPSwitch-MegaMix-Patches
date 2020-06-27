@@ -9,7 +9,7 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * Enable HachiHachi Flower Fight (618) & Saturation (207)
 * Enable Recording (Requires Custom NCA)
 * Force English (MEGA39's ONLY)
-* Force Korean (MEGA39's ONLY) / [Font Fix](https://drive.google.com/drive/folders/1oCPbMWSwsIZfDkOcluL7TsuA9W2LdrC8?usp=sharing)
+* Force Korean (MEGA39's ONLY)
 * Force Chinese (MEGA39's ONLY)
 * Force Taiwanese (MEGA39's ONLY)
 * Force -ui_ps4 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
@@ -21,8 +21,6 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * No Copyright Watermark
 * Mod Folder (mod_switch_01) / (MEGA39's ONLY)
 * Remove pv_weight limit file call
-
-Force Chinese, Taiwanese and Korean don't work properly and some text wont render!
 
 # Credits:
 * [CyberKevin](https://github.com/oocyberkevinoo) (IPSwitch Patches, Original Patches)
