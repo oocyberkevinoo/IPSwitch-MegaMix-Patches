@@ -8,21 +8,19 @@
 
 // Disable args.txt
 @disabled
-00995A74 "rom:/xxxx.txt"
+0099FEEA "rom:/xxxx.txt"
 
 // Disable pv_db_switch.txt
 @disabled
-0097C07E "av_db_switch"
+0098645E "av_db_switch"
 
 // Disable Lyrics (JP/TW/CN)
 @disabled
-00982E13 "xyric.%03zu"
+0098D25C "xyric.%03zu"
 
 // Disable Lyrics (EN/KR)
 @disabled
-00997EEA "xyric_en.%03zu"
-
-@flag offset_shift 0 
+009A2350 "xyric_en.%03zu"
 
 // Enable HachiHachi Flower Fight (618) & Saturation (207)
 @disabled
@@ -31,38 +29,37 @@
 00534DD9 960F
 00534E3D 9A0F
 
-@flag offset_shift 0x100
-
 // Enable Recording (Requires Custom NCA)
 @disabled
 00626D70 1F2003D5
 
 // Force Japanese 
 @disabled
-001E8DA4 00008052
+001EE204 00008052
+00985894 "lang2/jp"
 
 // Force Chinese (Requires extra files)
 @disabled
-001E8DA4 40008052 
-009663E0 "lang2/cn"
+001EE204 40008052 
+00985894 "lang2/cn"
 
 // Force Taiwanese (Requires extra files)
 @disabled
-001E8DA4 60008052 
-009663E0 "lang2/tw"
+001EE204 60008052 
+00985894 "lang2/tw"
 
 // Force Korean (Requires extra files)
 @disabled
-001E8DA4 80008052 
-009663E0 "lang2/kr"
+001EE204 80008052 
+00985894 "lang2/kr"
 
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
-009a1a32 "-modps4"
+009A1A32 "-modps4"
 
 // Force -no_npr (Requires custom args.txt)
 @disabled
-009a1a2a "-modnpr"
+009A1A2A "-modnpr"
 
 // Force -hdtv720 (Requires custom args.txt)
 @disabled
@@ -70,7 +67,7 @@
 
 // Force -hdtv1080 (Requires custom args.txt)
 @disabled
-009a6c82 "-mod1080p"
+009A6C82 "-mod1080p"
 
 // No NPR (Requires Shader Fix)
 @disabled
