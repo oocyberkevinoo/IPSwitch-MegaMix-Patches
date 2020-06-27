@@ -16,8 +16,8 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * Force -no_npr
 
 # Credits:
-* [DeathChaos](https://github.com/DeathChaos25) (IPSwitch Patches, Original Patches)
 * [CyberKevin](https://github.com/oocyberkevinoo) (IPSwitch Patches, Original Patches)
+* [DeathChaos](https://github.com/DeathChaos25) (IPSwitch Patches, Original Patches)
 * [Nas](https://github.com/nastys) (Original Patches)
 * [Stewie1.0](https://github.com/Stewie100) (Original Patches)
 * [SwigS-27](https://github.com/SwigS-27) (IPSwitch Patches, Original Patches)
