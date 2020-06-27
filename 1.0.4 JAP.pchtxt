@@ -76,17 +76,17 @@
 @disabled
 009A1A32 "-modps4"
 
+// Force -no_npr (Requires custom args.txt)
+@disabled
+009A1A2A "-modnpr"
+
 // Force -hdtv720 (Requires custom args.txt)
 @disabled
-0097C63B "-mod720"
+0097C63B "-mod720p"
 
 // Force -hdtv1080 (Requires custom args.txt)
 @disabled
 009A6C82 "-mod1080p"
-
-// Force -no_npr (Requires custom args.txt)
-@disabled
-009A1A2A "-modnpr"
 
 // No NPR (Requires Shader Fix)
 @disabled
