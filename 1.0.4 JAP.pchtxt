@@ -1,8 +1,8 @@
 @nsobid-E20FE72B6DFDB1966CE5C3627218834A7CE326C1
 
 # Hatsune Miku: Project DIVA MEGA39's v1.0.4 JAP
-# Original patches: DeathChaos - CyberKevin - Nas - Stewie1.0 - SwigS-27
-# IPSwitch patches: DeathChaos - CyberKevin - SwigS-27
+# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27
+# IPSwitch patches: CyberKevin - DeathChaos - SwigS-27
 
 
 // Enable HachiHachi Flower Fight (618) & Saturation (207)
@@ -38,5 +38,22 @@
 // Enable Recording (Requires Custom NCA)
 @disabled
 00626D30 1F2003D5
+
+// Remove pv_weight limit file call
+@disabled
+005c77c8 1f2003d5
+005c7854 1f2003d5
+
+// Force -ui_ps4
+@disabled
+001d1b28 0000e0d2
+
+// Force -hdtv1080
+@disabled
+001d1a10 0000e0d2
+
+// Force -no_npr
+@disabled
+001d1aec 0000e0d2
 
 @stop
