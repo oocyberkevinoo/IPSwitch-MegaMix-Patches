@@ -42,35 +42,20 @@
 001EE1C4 20008052
 00970735 "lang2/en"
 
-// Force Korean (Requires extra files)
-@disabled
-001EE1C4 20008052
-00970735 "lang2/kr"
-00978EB4 "rom_switch_kr"
-
 // Force Chinese
 @disabled
-001EE1C4 20008052
+001EE1C4 40008052 
 00970735 "lang2/cn"
-00978EB4 "rom_switch_cn"
-009A3E67 ""
-009A3EA4 ""
-009A2350 "lyric.%03zu"
-0097279B ""
-00977851 ""
-00997DE0 ""
 
 // Force Taiwanese
 @disabled
-001EE1C4 20008052
+001EE1C4 60008052 
 00970735 "lang2/tw"
-00978EB4 "rom_switch_tw"
-009A3E67 ""
-009A3EA4 ""
-009A2350 "lyric.%03zu"
-0097279B ""
-00977851 ""
-00997DE0 ""
+
+// Force Korean (Requires extra files)
+@disabled
+001EE1C4 80008052 
+00970735 "lang2/kr"
 
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
