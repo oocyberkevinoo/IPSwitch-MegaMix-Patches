@@ -39,4 +39,16 @@
 005c7808 1f2003d5
 005c7894 1f2003d5
 
+// force -ui_ps4
+@disabled
+001d1b68 0000e0d2
+
+// force -hdtv1080
+@disabled
+001d1a50 0000e0d2
+
+// force -no_npr
+@disabled
+001d1b2c 0000e0d2
+
 @stop
