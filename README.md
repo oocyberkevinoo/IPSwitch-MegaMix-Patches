@@ -12,10 +12,10 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * Force Korean (MEGA39's ONLY)
 * Force Chinese (MEGA39's ONLY)
 * Force Taiwanese (MEGA39's ONLY)
-* Force -ui_ps4 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing)
-* Force -no_npr ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing)
-* Force -hdtv720 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing)
-* Force -hdtv1080 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing)
+* Force -ui_ps4 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
+* Force -no_npr ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
+* Force -hdtv720 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
+* Force -hdtv1080 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
 * No NPR ([Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
 * No PV Watermark 
 * No Copyright Watermark
