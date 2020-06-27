@@ -39,10 +39,21 @@
 @disabled
 00626D30 1F2003D5
 
-// remove pv_weight limit file call
+// Remove pv_weight limit file call
 @disabled
 005c77c8 1f2003d5
 005c7854 1f2003d5
 
+// Force -ui_ps4
+@disabled
+001d1b28 0000e0d2
+
+// Force -hdtv1080
+@disabled
+001d1a10 0000e0d2
+
+// Force -no_npr
+@disabled
+001d1aec 0000e0d2
 
 @stop
