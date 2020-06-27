@@ -15,7 +15,7 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 * Force Taiwanese
 * Force Korean 
 * Force -ui_ps4 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
-* Force -no_npr ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
+* Force -no_npr ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing) & [Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
 * Force -hdtv720 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
 * Force -hdtv1080 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
 * No NPR ([Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
