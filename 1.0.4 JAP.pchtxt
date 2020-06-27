@@ -87,14 +87,9 @@
 
 // Mod Folder (mod_switch_01)
 @disabled
-001EE1C4 20008052
-00978EB4 "mod_switch_01"
-009A3E67 ""
-009A3EA4 ""
-009A2350 "lyric.%03zu"
-0097279B ""
-00977851 ""
-00997DE0 ""
+001EE1C4 40008052 
+00970735 "lang2/cn"
+0098578B "mod_switch_01"
 
 // Remove pv_weight limit file call
 @disabled
