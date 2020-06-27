@@ -37,6 +37,11 @@
 @disabled
 00626D30 1F2003D5
 
+// Force Japanese 
+@disabled
+001EE1C4 00008052
+00970735 "lang2/jp"
+
 // Force English (Requires extra files)
 @disabled
 001EE1C4 20008052
