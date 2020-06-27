@@ -19,7 +19,7 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * No NPR ([Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
 * No PV Watermark 
 * No Copyright Watermark
-* Mod Folder (mod_switch_01)
+* Mod Folder (mod_switch_01) (MEGA39's ONLY)
 * Remove pv_weight limit file call
 
 # Credits:
