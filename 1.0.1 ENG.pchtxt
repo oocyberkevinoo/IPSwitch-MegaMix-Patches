@@ -81,6 +81,12 @@
 @disabled
 009713F0 "dopyright.png"
 
+// Mod Folder (mod_switch_01)
+@disabled
+001EE204 40008052 
+00985894 "lang2/cn"
+0098578B "mod_switch_01"
+
 // Remove pv_weight limit file call
 @disabled
 005c7808 1f2003d5
