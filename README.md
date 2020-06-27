@@ -3,17 +3,24 @@
 IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 
 # List of patches avaliable:
+* Disable args.txt
+* Disable Lyrics
+* Disable pv_db_switch.txt
 * Enable HachiHachi Flower Fight (618) & Saturation (207)
+* Enable Recording (Requires Custom NCA)
 * Force English (MEGA39's ONLY)
+* Force Korean (MEGA39's ONLY)
+* Force Chinese (MEGA39's ONLY)
+* Force Taiwanese (MEGA39's ONLY)
+* Force -ui_ps4 ([Requires custom args.txt]https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing)
+* Force -no_npr ([Requires custom args.txt]https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing)
+* Force -hdtv720 ([Requires custom args.txt]https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing)
+* Force -hdtv1080 (Requires custom args.txt)
 * No NPR ([Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
 * No PV Watermark 
-* Force Disable Lyrics ([Requires Custom AET](https://drive.google.com/drive/folders/1Sv5Rqrm9Iuf1e_m0282wpxLe9VqE3J5-?usp=sharing))
 * No Copyright Watermark
-* Enable Recording (Requires Custom NCA)
-* remove pv_weight limit file call
-* Force -ui_ps4 (args.txt)
-* Force -hdtv1080 (args.txt)
-* Force -no_npr (args.txt)
+* Mod Folder (mod_switch_01)
+* Remove pv_weight limit file call
 
 # Credits:
 * [CyberKevin](https://github.com/oocyberkevinoo) (IPSwitch Patches, Original Patches)
