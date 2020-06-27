@@ -1,6 +1,7 @@
 # IPSwitch-MegaMix-Patches
 
-IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
+IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix (EN) and MEGA39's (JP/CN/TW)
+The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 
 # List of patches avaliable:
 * Disable args.txt
@@ -8,10 +9,11 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * Disable pv_db_switch.txt
 * Enable HachiHachi Flower Fight (618) & Saturation (207)
 * Enable Recording (Requires Custom NCA)
+* Force Japanese (Mega Mix ONLY)
 * Force English (MEGA39's ONLY)
-* Force Korean (MEGA39's ONLY)
-* Force Chinese (MEGA39's ONLY)
-* Force Taiwanese (MEGA39's ONLY)
+* Force Chinese 
+* Force Taiwanese
+* Force Korean 
 * Force -ui_ps4 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
 * Force -no_npr ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
 * Force -hdtv720 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
