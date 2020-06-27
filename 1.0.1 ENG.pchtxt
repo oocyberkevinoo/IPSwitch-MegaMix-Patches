@@ -39,15 +39,15 @@
 005c7808 1f2003d5
 005c7894 1f2003d5
 
-// Force -ui_ps4
+// Force -ui_ps4 (args.txt)
 @disabled
 001d1b68 0000e0d2
 
-// Force -hdtv1080
+// Force -hdtv1080 (args.txt)
 @disabled
 001d1a50 0000e0d2
 
-// Force -no_npr
+// Force -no_npr (args.txt)
 @disabled
 001d1b2c 0000e0d2
 

@@ -11,9 +11,9 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * No Copyright Watermark
 * Enable Recording (Requires Custom NCA)
 * remove pv_weight limit file call
-* Force -ui_ps4
-* Force -hdtv1080
-* Force -no_npr
+* Force -ui_ps4 (args.txt)
+* Force -hdtv1080 (args.txt)
+* Force -no_npr (args.txt)
 
 # Credits:
 * [CyberKevin](https://github.com/oocyberkevinoo) (IPSwitch Patches, Original Patches)
