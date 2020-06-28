@@ -6,7 +6,6 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 # List of avaliable patches:
 * Disable args.txt
 * Disable Lyrics
-* Disable pv_db_switch.txt
 * Enable HachiHachi Flower Fight (618) & Saturation (207)
 * Enable Recording (Requires Custom NCA)
 * Force Japanese
@@ -19,8 +18,7 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 * Force -hdtv720 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
 * Force -hdtv1080 ([Requires custom args.txt](https://drive.google.com/drive/folders/1HC_t9TCa6i_KAMfQ73219SjOVwL5a5oi?usp=sharing))
 * No NPR ([Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
-* No PV Watermark 
-* No Copyright Watermark
+* No PV and Copyright Watermark
 * Mod Folder (mod_switch_01) / (Uses JP UI and Chinese Strings)
 * Remove pv_weight limit file call
 
