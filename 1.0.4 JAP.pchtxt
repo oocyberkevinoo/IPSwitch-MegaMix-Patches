@@ -10,16 +10,9 @@
 @disabled
 0099FEEA "rom:/xxxx.txt"
 
-// Disable pv_db_switch.txt
-@disabled
-0098645E "av_db_switch"
-
-// Disable Lyrics (JP/TW/CN)
+// Disable Lyrics
 @disabled
 0098D25B "xyric.%03zu"
-
-// Disable Lyrics (EN/KR)
-@disabled
 009A2350 "xyric_en.%03zu"
 
 @flag offset_shift 0 
@@ -65,6 +58,7 @@
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
 009A1A32 "-modps4"
+0098645E "av_db_switch"
 
 // Force -no_npr (Requires custom args.txt)
 @disabled
@@ -82,12 +76,9 @@
 @disabled
 009A5EE9 "force_adp"
 
-// No PV Watermark
+// No Copyright and PV Watermark
 @disabled
 00983BE1 "av_mark"
-
-// No Copyright Watermark
-@disabled
 009713F0 "dopyright.png"
 
 // Mod Folder (mod_switch_01)
