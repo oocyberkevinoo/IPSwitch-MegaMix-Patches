@@ -16,6 +16,7 @@
 00997EEB "xyric_en.%03zu"
 
 // Disable pv_weight_db.txt
+@disabled
 00986E6C "rom/av_weight_db.txt"
 
 @flag offset_shift 0
