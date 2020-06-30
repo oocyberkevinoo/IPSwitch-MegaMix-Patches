@@ -15,6 +15,10 @@
 00982E13 "xyric.%03zu"
 00997EEB "xyric_en.%03zu"
 
+// Disable "resolution_scale"
+@disabled
+00982E43 "a_solution_scale"
+
 // Disable pv_weight_db.txt
 @disabled
 00986E6C "rom/av_weight_db.txt"
