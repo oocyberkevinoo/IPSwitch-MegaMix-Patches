@@ -5,6 +5,7 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 
 # List of avaliable patches:
 * Disable args.txt
+* Disable resolution_scale
 * Disable Lyrics
 * Enable HachiHachi Flower Fight (618) & Saturation (207)
 * Enable Recording (Requires Custom NCA)
