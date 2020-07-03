@@ -15,6 +15,10 @@
 0098D25C "xyric.%03zu"
 009A2350 "xyric_en.%03zu"
 
+// Disable "resolution_scale"
+@disabled
+0098D28C "a_solution_scale"
+
 // Enable HachiHachi Flower Fight (618) & Saturation (207)
 @disabled
 00533F8D 950F
