@@ -30,7 +30,7 @@
 00970D7D ".dovie_surface"
 
 // Disable Hand Scale
-@enabled
+@disabled
 00164754 57020014
 
 @stop
