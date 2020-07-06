@@ -10,7 +10,8 @@ IPSwitch patches for Hatsune Miku: Project DIVA Mega Mix and MEGA39's
 * Force Disable Lyrics ([Requires Custom AET](https://drive.google.com/drive/folders/1Sv5Rqrm9Iuf1e_m0282wpxLe9VqE3J5-?usp=sharing))
 * No Copyright Watermark
 * Enable Recording (Requires Custom NCA)
-* remove pv_weight limit file call
+* Remove pv_weight limit file call
+* Disable Hand Scaling (used in old PVs)
 * Force -ui_ps4 ([Requires custom args.txt](https://github.com/oocyberkevinoo/IPSwitch-MegaMix-Patches/raw/master/Required%20Files/args.txt))
 * Force -hdtv1080 ([Requires custom args.txt](https://github.com/oocyberkevinoo/IPSwitch-MegaMix-Patches/raw/master/Required%20Files/args.txt))
 * Force -no_npr ([Requires custom args.txt](https://github.com/oocyberkevinoo/IPSwitch-MegaMix-Patches/raw/master/Required%20Files/args.txt) & [Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
