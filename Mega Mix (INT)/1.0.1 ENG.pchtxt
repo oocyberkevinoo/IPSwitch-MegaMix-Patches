@@ -88,6 +88,7 @@
 005c7894 1f2003d5
 
 // Disable Hand Scaling
+@disabled
 00164E34 58020014
 
 @stop
