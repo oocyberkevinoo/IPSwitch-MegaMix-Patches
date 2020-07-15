@@ -1,8 +1,8 @@
 @nsobid-FAE8AA778E4CE612CE4E7655739BB94FF9D2CB11
 
 # Hatsune Miku: Project DIVA MEGA39's v1.0.3 JAP
-# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27
-# IPSwitch patches: CyberKevin - DeathChaos - SwigS-27
+# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27 - Skyth
+# IPSwitch patches: CyberKevin - DeathChaos - SwigS-27 - M&M
 
 @flag offset_shift 0x100
 
@@ -94,5 +94,9 @@
 001E8DA4 40008052 
 009663E0 "lang2/cn"
 0097B3BA "mod_switch_01"
+
+// Disable Hand Scaling
+@disabled
+00164754 58020014
 
 @stop
