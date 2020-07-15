@@ -5,6 +5,7 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 
 # List of patches avaliable:
 * Disable args.txt
+* Disable Hand Scaling (Used in older PVs)
 * Disable resolution_scale
 * Disable Lyrics
 * Enable HachiHachi Flower Fight (618) & Saturation (207)
@@ -21,7 +22,6 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 * No NPR ([Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
 * No PV and Copyright Watermark
 * Remove pv_weight limit file call
-* Disable Hand Scaling (Used in older PVs)
 
 # Credits:
 * [CyberKevin](https://github.com/oocyberkevinoo) (IPSwitch Patches, Original Patches)

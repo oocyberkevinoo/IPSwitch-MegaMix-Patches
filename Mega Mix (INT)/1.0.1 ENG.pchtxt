@@ -10,6 +10,10 @@
 @disabled
 0099FEEA "rom:/xxxx.txt"
 
+// Disable Hand Scaling
+@disabled
+00164E34 58020014
+
 // Disable Lyrics
 @disabled
 0098D25C "xyric.%03zu"
@@ -86,9 +90,5 @@
 @disabled
 005c7808 1f2003d5
 005c7894 1f2003d5
-
-// Disable Hand Scaling
-@disabled
-00164E34 58020014
 
 @stop

@@ -10,6 +10,10 @@
 @disabled
 00995A74 "rom:/xxxx.txt"
 
+// Disable Hand Scaling
+@disabled
+00164754 58020014
+
 // Disable Lyrics
 @disabled
 00982E13 "xyric.%03zu"
@@ -23,16 +27,12 @@
 @disabled
 00986E6C "rom/av_weight_db.txt"
 
-@flag offset_shift 0
-
 // Enable HachiHachi Flower Fight (618) & Saturation (207)
 @disabled
 0052E66D 950F
 0052E6E9 990F
 0052F4B9 960F
 0052F51D 9A0F
-
-@flag offset_shift 0x100
 
 // Enable Recording (Requires Custom NCA)
 @disabled
@@ -94,9 +94,5 @@
 001E8DA4 40008052 
 009663E0 "lang2/cn"
 0097B3BA "mod_switch_01"
-
-// Disable Hand Scaling
-@disabled
-00164754 58020014
 
 @stop
