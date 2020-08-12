@@ -1,0 +1,93 @@
+@nsobid-3BD96B7C174A9AD189F33984F707596A7FCBFCF3
+
+# Hatsune Miku: Project DIVA MEGA39's v1.0.6 JAP
+# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27
+# IPSwitch patches: CyberKevin - DeathChaos - SwigS-27
+
+@flag offset_shift 0x100
+
+// Disable args.txt
+@disabled
+009A0F2A "rom:/xxxx.txt"
+
+// Disable Lyrics
+@disabled
+0098E29B "xyric.%03zu"
+009A3397 "xyric_en.%03zu"
+
+// Disable "resolution_scale"
+@disabled
+0098E2CB "a_solution_scale"
+
+// Enable HachiHachi Flower Fight (618) & Saturation (207)
+@disabled
+00534B9D 950F
+00534C19 990F
+005359E9 960F
+00535A4D 9A0F
+
+// Enable Recording (Requires Custom NCA)
+@disabled
+00627A20 1F2003D5
+
+// Force Japanese 
+@disabled
+001EEC34 00008052
+00971775 "lang2/jp"
+
+// Force English (Requires extra files)
+@disabled
+001EEC34 20008052
+00971775 "lang2/en"
+
+// Force Chinese
+@disabled
+001EEC34 40008052 
+00971775 "lang2/cn"
+
+// Force Taiwanese
+@disabled
+001EEC34 60008052 
+00971775 "lang2/tw"
+
+// Force Korean (Requires extra files)
+@disabled
+001EEC34 80008052 
+00971775 "lang2/kr"
+
+// Force -ui_ps4 (Requires custom args.txt)
+@disabled
+009A2A72 "-modps4"
+0098749E "av_db_switch"
+
+// Force -no_npr (Requires custom args.txt)
+@disabled
+009A2A6A "-modnpr"
+
+// Force -hdtv720 (Requires custom args.txt)
+@disabled
+0097D67B "-mod720p"
+
+// Force -hdtv1080 (Requires custom args.txt)
+@disabled
+009A7CCA "-mod1080p"
+
+// No NPR (Requires Shader Fix)
+@disabled
+009A6F2A "force_adp"
+
+// No Copyright and PV Watermark
+@disabled
+00984C21 "av_mark"
+00972430 "dopyright.png"
+
+// Remove pv_weight limit file call
+@disabled
+005C8468 1f2003d5
+005C84F4 1f2003d5
+
+// Disable Hand Scaling
+@disabled
+00165344 58020014
+
+@stop
