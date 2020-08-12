@@ -10,7 +10,7 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 * Enable HachiHachi Flower Fight (618) & Saturation (207)
 * Enable Recording (Requires Custom NCA)
 * Force Japanese
-* Force English (MEGA39's ONLY)
+* Force English (MEGA39's ONLY, [Requires English Files](http://www.mediafire.com/folder/g66lqyjxolif5/English_Mod))
 * Force Chinese 
 * Force Taiwanese
 * Force Korean 
