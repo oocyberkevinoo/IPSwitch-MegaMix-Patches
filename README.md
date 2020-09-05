@@ -22,11 +22,12 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 * No PV and Copyright Watermark
 * Remove pv_weight limit file call
 * Disable Hand Scaling (Used in older PVs)
+* Force FT/PDA mouth animations/expressions/look animations
 
 # Credits:
 * [CyberKevin](https://github.com/oocyberkevinoo) (IPSwitch Patches, Original Patches)
 * [DeathChaos](https://github.com/DeathChaos25) (IPSwitch Patches, Original Patches)
-* [Nas](https://github.com/nastys) (Original Patches)
+* [Nas](https://github.com/nastys) (IPSwitch Patches, Original Patches)
 * [Stewie1.0](https://github.com/Stewie100) (Original Patches)
 * [SwigS-27](https://github.com/SwigS-27) (IPSwitch Patches, Original Patches)
 * [Skyth](https://github.com/blueskythlikesclouds) (Original Patches)
