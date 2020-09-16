@@ -86,6 +86,10 @@
 005C8468 1f2003d5
 005C84F4 1f2003d5
 
+// No handheld limit (Requires pv_weight_no.txt)
+@disabled
+0097714C "pv_weight_no.txt"
+
 // Disable Hand Scaling
 @disabled
 00165344 58020014
