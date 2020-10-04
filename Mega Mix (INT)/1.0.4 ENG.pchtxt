@@ -1,8 +1,8 @@
-@nsobid-E0C41878F636AD4F362B74FB0C77B95A22CE7364
+@nsobid-E0C41878F636AD4F362B74FB0C77B95A22CE7364	
 
-# Hatsune Miku: Project DIVA MEGA39's v1.0.7 JAP
-# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27
-# IPSwitch patches: CyberKevin - DeathChaos - Nas - SwigS-27
+# Hatsune Miku: Project DIVA Mega Mix v1.0.4 ENG
+# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27 - Skyth
+# IPSwitch patches: CyberKevin - DeathChaos - SwigS-27 - M&M
 
 @flag offset_shift 0x100
 
@@ -34,17 +34,17 @@
 @disabled
 00628050 1F2003D5
 
-// Force English (Requires extra files)
+// Force Japanese 
 @disabled
-001EF2C4 20008052
-00972775 "lang2/en"
+001EF2C4 00008052
+00972775 "lang2/jp"
 
-// Force Chinese
+// Force Chinese (Requires extra files)
 @disabled
 001EF2C4 40008052 
 00972775 "lang2/cn"
 
-// Force Taiwanese
+// Force Taiwanese (Requires extra files)
 @disabled
 001EF2C4 60008052 
 00972775 "lang2/tw"
