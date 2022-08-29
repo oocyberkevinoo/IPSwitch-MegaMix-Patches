@@ -32,25 +32,33 @@
 @disabled
 006FE8B0 1F2003D5
 
+// Force Japanese
+@disabled
+0021A554 00008052
+0021A564 08008052
+
 // Force English (Requires extra files)
 @disabled
 0021A554 20008052
-00AA68AA "lang2/en"
+0021A564 28008052
 
 // Force Chinese
 @disabled
-0021A554 40008052 
-00AA68AA "lang2/cn"
+0021A554 40008052
+0021A564 48008052 
+
 
 // Force Taiwanese
 @disabled
-0021A554 60008052 
-00AA68AA "lang2/tw"
+0021A554 60008052
+0021A564 68008052 
+
 
 // Force Korean (Requires extra files)
 @disabled
-0021A554 80008052 
-00AA68AA "lang2/kr"
+0021A554 80008052
+0021A564 88008052 
+
 
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
