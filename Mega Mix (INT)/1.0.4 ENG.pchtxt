@@ -26,9 +26,25 @@
 00536079 960F
 005360DD 9A0F
 
-// Enable Custom DLC9 (usefull to create a temporary mod)
+// Enable Custom DLC9
 @disabled
 0097467D "alc9_"
+
+// Enable F2nd DLC9
+@disabled
+0097467D "F2nd_"
+
+// Enable custom save "F 2nd" (Requires a folder "F2nd" in your savedata)
+@disabled
+0098ABA0 ":/F2nd/"
+
+// Enable Diva X DLC9
+@disabled
+0097467D "divX_"
+
+// Enable custom save "Diva X" (Requires a folder "divaX" in your savedata)
+@disabled
+0098ABA0 ":/divaX/"
 
 // Enable Recording (Requires Custom NCA)
 @disabled

@@ -1,0 +1,114 @@
+@nsobid-179265BD41F7781DAC979E77702011241B442BA1
+
+# Hatsune Miku: Project DIVA MEGA39's v1.0.6 ENG
+# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27
+# IPSwitch patches: CyberKevin - DeathChaos - Nas - SwigS-27
+
+@flag offset_shift 0x100
+
+// Disable args.txt
+@disabled
+00AE6360 "rom:/xxxx.txt"
+
+// Disable Lyrics
+@disabled
+00AD358C "xyric.%03zu"
+00AE87DF "xyric_en.%03zu"
+
+// Disable "resolution_scale"
+@disabled
+00AD35BC "a_solution_scale"
+
+// Enable Saturation (207)
+@disabled
+005D1A65 950F
+005D28B1 900F
+
+// Enable Custom DLC9 (usefull to create a temporary mod)
+@disabled
+00AB87B1 "alc9_"
+
+// Enable Recording (Requires Custom NCA)
+@disabled
+0070A9C0 1F2003D5
+
+// Force Japanese
+@disabled
+0021C964 00008052
+0021C974 08008052
+
+// Force English (Requires extra files)
+@disabled
+0021C964 20008052
+0021C974 28008052
+
+// Force Chinese
+@disabled
+0021C964 40008052
+0021C974 48008052 
+
+
+// Force Taiwanese
+@disabled
+0021C964 60008052
+0021C974 68008052 
+
+
+// Force Korean (Requires extra files)
+@disabled
+0021C964 80008052
+0021C974 88008052 
+
+
+// Force -ui_ps4 (Requires custom args.txt)
+@disabled
+00AE7EA8 "-modps4"
+00ACC6DF "av_db_switch"
+
+// Force -no_npr (Requires custom args.txt)
+@disabled
+00AE7EA0 "-modnpr"
+
+// Force -hdtv720 (Requires custom args.txt)
+@disabled
+00AC2825 "-mod720p"
+
+// Force -hdtv1080 (Requires custom args.txt)
+@disabled
+00AED129 "-mod1080p"
+
+// No NPR (Requires Shader Fix)
+@disabled
+00AEC389 "force_adp"
+
+// No Copyright and PV Watermark
+@disabled
+00AC9E1A "av_mark"
+00AB7545 "dopyright.png"
+
+// Remove pv_weight limit file call
+@disabled
+00678EF8 1f2003d5
+00678F84 1f2003d5
+
+// No handheld limit (Requires pv_weight_no.txt)
+@disabled
+00ABC2B2 "pv_weight_no.txt"
+
+// Disable Hand Scaling
+@disabled
+00185EC0 58020014
+
+// Force FT mouth animations/expressions/look animations
+@disabled
+00B12CEC 96000000860000008E000000920000009000000084000000880000008A0000008C0000009400000098000000
+00B27D34 0B000000130000001D00000025000000290000002D000000310000003500000041000000450000004D000000510000007F000000390000000F0000005900000019000000550000002100000049000000070000003D000000EA000000EC000000EE000000F0000000
+00B12DA4 A8000000AA000000AE000000AC000000B2000000B0000000B6000000B4000000A6000000
+
+// Force PDA mouth animations/expressions/look animations
+@disabled
+00B12C90 870000008D0000008F0000009300000091000000950000009700000099000000850000008400000089000000
+00B27C64 0D000000110000003B00000015000000190000001B0000001F00000023000000270000002B0000002F00000033000000370000004300000009000000470000004B0000004F00000053000000570000005B000000090000003F00000008000000D8000000D9000000
+00B12D78 A9000000AB000000AF000000AD000000B3000000B1000000B7000000B5000000A7000000
+
+@stop
