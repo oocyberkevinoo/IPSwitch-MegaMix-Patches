@@ -8,16 +8,16 @@
 
 // Disable args.txt
 @disabled
-00AE6360 "rom:/xxxx.txt"
+00AE6360 00
 
 // Disable Lyrics
 @disabled
-00AD358C "xyric.%03zu"
-00AE87DF "xyric_en.%03zu"
+00AD358C 00
+00AE87DF 00
 
 // Disable "resolution_scale"
 @disabled
-00AD35BC "a_solution_scale"
+00AD35BC 00
 
 // Enable Saturation (207)
 @disabled
@@ -63,28 +63,24 @@
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
 00AE7EA8 "-modps4"
-00ACC6DF "av_db_switch"
+00ACC6DF 00
 
 // Force -no_npr (Requires custom args.txt)
 @disabled
 00AE7EA0 "-modnpr"
 
-// Force -hdtv720 (Requires custom args.txt)
+// Force -hdtv1080
 @disabled
-00AC2825 "-mod720p"
-
-// Force -hdtv1080 (Requires custom args.txt)
-@disabled
-00AED129 "-mod1080p"
+001FF3BC C8
 
 // No NPR (Requires Shader Fix)
 @disabled
-00AEC389 "force_adp"
+00AEC389 00
 
 // No Copyright and PV Watermark
 @disabled
-00AC9E1A "av_mark"
-00AB7545 "dopyright.png"
+00AC9E1A 00
+00AB7545 00
 
 // Remove pv_weight limit file call
 @disabled
@@ -110,5 +106,9 @@
 00B12C90 870000008D0000008F0000009300000091000000950000009700000099000000850000008400000089000000
 00B27C64 0D000000110000003B00000015000000190000001B0000001F00000023000000270000002B0000002F00000033000000370000004300000009000000470000004B0000004F00000053000000570000005B000000090000003F00000008000000D8000000D9000000
 00B12D78 A9000000AB000000AF000000AD000000B3000000B1000000B7000000B5000000A7000000
+
+// ExPatch (Unlocks Extreme)
+@disabled
+000CA300 20008052
 
 @stop

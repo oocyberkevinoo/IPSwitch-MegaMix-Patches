@@ -8,20 +8,20 @@
 
 // Disable args.txt
 @disabled
-00995A74 "rom:/xxxx.txt"
+00995A74 00
 
 // Disable Lyrics
 @disabled
-00982E13 "xyric.%03zu"
-00997EEB "xyric_en.%03zu"
+00982E13 00
+00997EEB 00
 
 // Disable "resolution_scale"
 @disabled
-00982E43 "a_solution_scale"
+00982E43 00
 
 // Disable pv_weight_db.txt
 @disabled
-00986E6C "rom/av_weight_db.txt"
+00986E6C 00
 
 @flag offset_shift 0
 
@@ -66,15 +66,11 @@
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
 009975CD "-modps4"
-0097C07E "av_db_switch"
+0097C07E 00
 
 // Force -no_npr (Requires custom args.txt)
 @disabled
 009975C5 "-modnpr"
-
-// Force -hdtv720 (Requires custom args.txt)
-@disabled
-00972289 "-mod720p"
 
 // Force -hdtv1080 (Requires custom args.txt)
 @disabled
@@ -82,12 +78,12 @@
 
 // No NPR (Requires Shader Fix)
 @disabled
-0099BA41 "force_adp"
+0099BA41 00
 
 // No Copyright and PV Watermark
 @disabled
-0097981D "av_mark"
-0096709B "dopyright.png"
+0097981D 00
+0096709B 00
 
 // Mod Folder (mod_switch_01)
 @disabled

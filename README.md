@@ -18,7 +18,6 @@ The Korean release of Hatsune Miku: Project DIVA MEGA39's is not supported.
 * Force Korean 
 * Force -ui_ps4 ([Requires custom args.txt](https://github.com/oocyberkevinoo/IPSwitch-MegaMix-Patches/raw/master/Required%20Files/args.txt))
 * Force -no_npr ([Requires custom args.txt](https://github.com/oocyberkevinoo/IPSwitch-MegaMix-Patches/raw/master/Required%20Files/args.txt))
-* Force -hdtv720 ([Requires custom args.txt](https://github.com/oocyberkevinoo/IPSwitch-MegaMix-Patches/raw/master/Required%20Files/args.txt))
 * Force -hdtv1080 ([Requires custom args.txt](https://github.com/oocyberkevinoo/IPSwitch-MegaMix-Patches/raw/master/Required%20Files/args.txt))
 * No NPR ([Requires Shader Fix](https://drive.google.com/drive/folders/1nmPeK2Pc0NOGCxTX2oyOyXdp5xCoDDyF?usp=sharing))
 * No PV and Copyright Watermark

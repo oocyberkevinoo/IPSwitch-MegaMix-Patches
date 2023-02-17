@@ -8,16 +8,16 @@
 
 // Disable args.txt
 @disabled
-009A0F2A "rom:/xxxx.txt"
+009A0F2A 00
 
 // Disable Lyrics
 @disabled
-0098E29B "xyric.%03zu"
-009A3397 "xyric_en.%03zu"
+0098E29B 00
+009A3397 00
 
 // Disable "resolution_scale"
 @disabled
-0098E2CB "a_solution_scale"
+0098E2CB 00
 
 // Enable HachiHachi Flower Fight (618) & Saturation (207)
 @disabled
@@ -53,15 +53,11 @@
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
 009A2A72 "-modps4"
-0098749E "av_db_switch"
+0098749E 00
 
 // Force -no_npr (Requires custom args.txt)
 @disabled
 009A2A6A "-modnpr"
-
-// Force -hdtv720 (Requires custom args.txt)
-@disabled
-0097D67B "-mod720p"
 
 // Force -hdtv1080 (Requires custom args.txt)
 @disabled
@@ -69,12 +65,12 @@
 
 // No NPR (Requires Shader Fix)
 @disabled
-009A6F2A "force_adp"
+009A6F2A 00
 
 // No Copyright and PV Watermark
 @disabled
-00984C21 "av_mark"
-00972430 "dopyright.png"
+00984C21 00
+00972430 00
 
 // Mod Folder (mod_switch_01)
 @disabled
