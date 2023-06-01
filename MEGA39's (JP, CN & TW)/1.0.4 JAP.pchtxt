@@ -2,7 +2,7 @@
 
 # Hatsune Miku: Project DIVA MEGA39's v1.0.4 JAP
 # Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27 - Skyth
-# IPSwitch patches: CyberKevin - DeathChaos - SwigS-27 - M&M
+# IPSwitch patches: CyberKevin - DeathChaos - Nas - SwigS-27 - M&M
 
 @flag offset_shift 0x100
 
@@ -68,9 +68,9 @@
 @disabled
 009A1A2A "-modnpr"
 
-// Force -hdtv1080 (Requires custom args.txt)
+// Force -hdtv1080
 @disabled
-009A6C82 "-mod1080p"
+001D49D0 C8
 
 // No NPR (Requires Shader Fix)
 @disabled
@@ -89,5 +89,9 @@
 // Disable Hand Scaling
 @disabled
 00164DF4 58020014
+
+// ExPatch (Unlocks Extreme)
+@disabled
+000C0080 20008052
 
 @stop

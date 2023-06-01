@@ -2,7 +2,7 @@
 
 # Hatsune Miku: Project DIVA Mega Mix v1.0.1 ENG
 # Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27 - Skyth
-# IPSwitch patches: CyberKevin - DeathChaos - SwigS-27 - M&M
+# IPSwitch patches: CyberKevin - DeathChaos - Nas - SwigS-27 - M&M
 
 @flag offset_shift 0x100
 
