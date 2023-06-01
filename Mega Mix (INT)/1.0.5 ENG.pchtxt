@@ -1,23 +1,23 @@
 @nsobid-E2C90615267660A5A9D164454FDC99CA1C348268
 
 # Hatsune Miku: Project DIVA MEGA39's v1.0.5 ENG
-# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27
-# IPSwitch patches: CyberKevin - DeathChaos - Nas - SwigS-27
+# Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27 - Skyth
+# IPSwitch patches: CyberKevin - DeathChaos - Nas - SwigS-27 - M&M
 
 @flag offset_shift 0x100
 
 // Disable args.txt
 @disabled
-00AD6366 "rom:/xxxx.txt"
+00AD6366 00
 
 // Disable Lyrics
 @disabled
-00AC3592 "xyric.%03zu"
-00AD87E5 "xyric_en.%03zu"
+00AC3592 00
+00AD87E5 00
 
 // Disable "resolution_scale"
 @disabled
-00AC35C2 "a_solution_scale"
+00AC35C2 00
 
 // Enable Saturation (207)
 @disabled
@@ -63,15 +63,11 @@
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
 00AD7EAE "-modps4"
-00ABC6FF "av_db_switch"
+00ABC6FF 00
 
 // Force -no_npr (Requires custom args.txt)
 @disabled
 00AD7EA6 "-modnpr"
-
-// Force -hdtv720 (Requires custom args.txt)
-@disabled
-00AB2845 "-mod720p"
 
 // Force -hdtv1080 (Requires custom args.txt)
 @disabled
@@ -79,12 +75,12 @@
 
 // No NPR (Requires Shader Fix)
 @disabled
-00ADC38F "force_adp"
+00ADC38F 00
 
 // No Copyright and PV Watermark
 @disabled
-00AB9E3A "av_mark"
-00AA7565 "dopyright.png"
+00AB9E3A 00
+00AA7565 00
 
 // Remove pv_weight limit file call
 @disabled

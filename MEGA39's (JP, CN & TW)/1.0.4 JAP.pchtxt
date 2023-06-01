@@ -2,22 +2,22 @@
 
 # Hatsune Miku: Project DIVA MEGA39's v1.0.4 JAP
 # Original patches: CyberKevin - DeathChaos - Nas - Stewie1.0 - SwigS-27 - Skyth
-# IPSwitch patches: CyberKevin - DeathChaos - SwigS-27 - M&M
+# IPSwitch patches: CyberKevin - DeathChaos - Nas - SwigS-27 - M&M
 
 @flag offset_shift 0x100
 
 // Disable args.txt
 @disabled
-0099FEEA "rom:/xxxx.txt"
+0099FEEA 00
 
 // Disable Lyrics
 @disabled
-0098D25B "xyric.%03zu"
-009A2350 "xyric_en.%03zu"
+0098D25B 00
+009A2350 00
 
 // Disable "resolution_scale"
 @disabled
-0098D28C "a_solution_scale"
+0098D28C 00
 
 @flag offset_shift 0 
 
@@ -62,28 +62,24 @@
 // Force -ui_ps4 (Requires custom args.txt)
 @disabled
 009A1A32 "-modps4"
-0098645E "av_db_switch"
+0098645E 00
 
 // Force -no_npr (Requires custom args.txt)
 @disabled
 009A1A2A "-modnpr"
 
-// Force -hdtv720 (Requires custom args.txt)
+// Force -hdtv1080
 @disabled
-0097C63B "-mod720p"
-
-// Force -hdtv1080 (Requires custom args.txt)
-@disabled
-009A6C82 "-mod1080p"
+001D49D0 C8
 
 // No NPR (Requires Shader Fix)
 @disabled
-009A5EE9 "force_adp"
+009A5EE9 00
 
 // No Copyright and PV Watermark
 @disabled
-00983BE1 "av_mark"
-009713F0 "dopyright.png"
+00983BE1 00
+009713F0 00
 
 // Remove pv_weight limit file call
 @disabled
@@ -93,5 +89,9 @@
 // Disable Hand Scaling
 @disabled
 00164DF4 58020014
+
+// ExPatch (Unlocks Extreme)
+@disabled
+000C0080 20008052
 
 @stop
